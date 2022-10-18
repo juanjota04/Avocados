@@ -52,7 +52,7 @@
             priceAndTitle.appendChild(price);
  
          //metemos todo en una tarjeta contenedora
-            const card = documen.createElement('div');
+            const card = document.createElement('div');
             card.className = "md:flex bg-white rounded-lg p-6 hover:bg-gray-300";
             card.append(imagen, priceAndTitle);
  

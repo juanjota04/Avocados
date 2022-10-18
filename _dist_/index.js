@@ -29,7 +29,7 @@
          
         const allItems = [];
 
-        responseJson.data.forEach((item) => {
+        responseJson.data.forEach(item => {
          //crear imagen
             const imagen = document.createElement('img');
             //url de la imagen

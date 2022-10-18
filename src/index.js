@@ -7,6 +7,9 @@ const baseUrl = "https://platzi-avo.vercel.app";
 
 const appNode = document.querySelector('#app');
 
+//Intl
+//1- dar formato a fechas
+//2- dar formato a monedas
 const formatPrice = (price) => {
     const newPrice = new window.Intl.NumberFormat("en-EN", {
         style: "currency",
@@ -14,10 +17,6 @@ const formatPrice = (price) => {
     }).format(price)
     return newPrice;
 }
-
-//intl
-//1- dar formato a fechas
-//2- dar formato a monedas
 
 // web api
 // Conectarnos al servidor
